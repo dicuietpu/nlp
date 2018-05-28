@@ -1,87 +1,42 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Similarity Analysis and Plagiarism Detection for Punjabi Documents
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The project aims to create a similarity and plagiarism detector for Punjabi (Gurmukhi) documents. 
+Framework implements the following steps:
+●	Input Documents
+●	Preprocessing- Language Detection, Tokenization, Stopword & Punctuation Removal, Stemming
+●	Similarity Calculation
+●	Plagiarism Calculation
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1.	Python 3
+2.	guess_language
+3.	NLTK
+	    
 
-```
-Give examples
-```
+### Implementation
 
-### Installing
+The first step is to input the two documents which are to be compared for similarity and plagiarism. The next step is to preprocess the text contained in the documents. Preprocessing step includes various sub-processes such as Tokenization, Language identification,  punctuation removal, stop words removal and stemming. After the preprocessing step, cosine similarity method has been used in order to find similarity and n-grams approach has been used in order to check for plagiarism. An easy and user friendly GUI has been developed in order to demonstrate the working of the project.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
-```
-Give the example
-```
+## Code
 
-And repeat
+main_program.py: USAGE: This program finds out similarity and plagiarism between two Punjabi documents that are uploaded by the user.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Python 3.6
 
-## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+### Authors
+Akanksha Chuchra
+Dravita
+Simarpreet Kaur
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thanks to DIC,UIET, Panjab University
